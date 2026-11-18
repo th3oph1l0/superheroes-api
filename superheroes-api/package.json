@@ -14,6 +14,10 @@
   "dependencies": {
     "express": "^5.3.0",
     "sequelize": "^6.37.8",
-    "sqlite3": "npm:@vscode/sqlite3@^5.1.14-vscode"
+    "sqlite3": "^5.1.7"
+  },
+  "allowScripts": {
+    "@vscode/sqlite3@5.1.14-vscode": true,
+    "sqlite3@5.1.7": true
   }
 }
